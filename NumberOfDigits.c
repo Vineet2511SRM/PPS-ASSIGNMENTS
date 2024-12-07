@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Bug: Doesn't return value when 0 is entered
 
 int countDigits(int n) {
     int count = 0;
