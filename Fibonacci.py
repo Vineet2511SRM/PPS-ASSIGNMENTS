@@ -19,6 +19,6 @@ Output: [0,1,1,2,3](Expected)
 
 Refute test case:
 Input: 0/-4
-Expected Output: [0],Please enter a non-negative integer
+Expected Output: [0]/Please enter a non-negative integer
 Actual Output: [](Unexpected)
 '''
