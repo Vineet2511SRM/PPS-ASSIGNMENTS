@@ -1,7 +1,8 @@
 def fibonacci(n):
     if n < 0:
         return "Error: Please enter a non-negative integer."
-    
+    if n == 0:
+        return [0]  # Return a list with the first Fibonacci number for 0 terms
     fib = []
     a, b = 0, 1
     for _ in range(n):
