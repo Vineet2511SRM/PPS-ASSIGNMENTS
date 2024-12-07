@@ -15,7 +15,7 @@ Input: 5(base),10(height)
 Output: The area of triangle is: 25.0(Expected)
 
 Refute test case
-Input: -5(base),10(height)
+Input: -6(base),15(height)
 Expected output: The area of triangle cannot be negative
-Actual output: -25.0(Unexpected)
+Actual output: -45.0(Unexpected)
 '''
