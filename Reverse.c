@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Bug when user enters a negative number...
 int reverseNumber(int n) {
     int reversed = 0;
     while (n > 0) {
