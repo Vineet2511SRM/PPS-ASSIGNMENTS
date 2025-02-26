@@ -66,3 +66,44 @@ int main() { // Main function
     dc.display(); // Call the function to display doctor details
     return 0;
 }
+
+// SAMPLE INPUT 1
+// Enter Doctor Name: Dr. Ramesh Kumar  
+//Enter Doctor ID: 101  
+//Enter Doctor Specialization: Cardiology  
+//Enter Number of Patients Attended: 120  
+//Enter Fee for Consultation: 500  
+//Enter Date of Joining (DD-MM-YYYY): 10-02-2015 
+
+// SAMPLE OUTPUT 1
+// --- Doctor Details ---
+// Doctor Name          : Dr. Ramesh Kumar
+// Doctor ID            : 101
+// Specialization       : Cardiology
+// Number of Patients   : 120
+// Consultation Fee     : Rs. 500.00
+// Date of Joining      : 10-02-2015
+// Total Earnings       : Rs. 60000.00
+// Doctor earns more than Rs. 50,000 per month.
+
+// SAMPLE INPUT 2
+// Enter Doctor Name: Dr. Sunita Sharma
+// Enter Doctor ID: 102
+// Enter Doctor Specialization: Pediatrics
+// Enter Number of Patients Attended: 80
+// Enter Fee for Consultation: 400
+// Enter Date of Joining (DD-MM-YYYY): 15-07-2018
+
+// SAMPLE OUTPUT 2
+// --- Doctor Details ---
+// Doctor Name          : Dr. Sunita Sharma
+// Doctor ID            : 102
+// Specialization       : Pediatrics
+// Number of Patients   : 80
+// Consultation Fee     : Rs. 400.00
+// Date of Joining      : 15-07-2018
+// Total Earnings       : Rs. 32000.00
+// Doctor earns less than Rs. 50,000 per month.
+
+
+

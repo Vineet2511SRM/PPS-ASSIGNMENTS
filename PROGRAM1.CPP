@@ -62,3 +62,30 @@ int main() {  // Main function
         }
     }
 }
+
+// SAMPLE INPUT 1
+//Library Menu:  
+//1. Store book names  
+//2. Display book names  
+//3. Check availability  
+//4. Exit  
+//Enter your choice: 2  
+// SAMPLE OUTPUT 1
+//Available Books:
+//1. Dream
+//2. Nightangle
+//3. Fiction
+//4. C++ Core
+
+// SAMPLE INPUT 2
+//Library Menu:
+//1. Store book names
+//2. Display book names
+//3. Check availability
+//4. Exit
+//Enter your choice: 3
+
+// SAMPLE OUTPUT 2
+//Enter the book name to check availability: Fiction
+//Book is available!
+
