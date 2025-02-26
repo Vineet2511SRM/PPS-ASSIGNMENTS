@@ -9,7 +9,7 @@ private: // Private members
     string doc_Specialization;
     int numberOfPatients;
     double fee_consult;
-    string DateOfJoining;
+    string date_join;
 
 public: // Public members
     void doc_details() { // Function to store doctor details
@@ -32,7 +32,7 @@ public: // Public members
         cin.ignore(); // Ignore newline before using getline
 
         cout << "Enter Date of Joining (DD-MM-YYYY): ";
-        getline(cin, DateOfJoining);
+        getline(cin, date_join); // Read the entire line
     }
 
     double total_earnings() { // Function to calculate total earnings
@@ -46,7 +46,7 @@ public: // Public members
         cout << "Specialization       : " << doc_Specialization << endl;
         cout << "Number of Patients   : " << numberOfPatients << endl;
         cout << "Consultation Fee     : Rs. " << fixed << setprecision(2) << fee_consult << endl; // Set decimal precision
-        cout << "Date of Joining      : " << DateOfJoining << endl;
+        cout << "Date of Joining      : " << date_join << endl;
 
         // Display total earnings
         double earnings = total_earnings();
