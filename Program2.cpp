@@ -14,7 +14,6 @@ private: // Private members
 public: // Public members
     void doc_details() { // Function to store doctor details
         cout << "Enter Doctor Name: ";
-        cin.ignore(); // Ignore leftover newline
         getline(cin, doc_Name);  // Read the entire line
 
         cout << "Enter Doctor ID: "; // Read the integer
