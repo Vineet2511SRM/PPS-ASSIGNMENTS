@@ -1,10 +1,10 @@
 #include <stdio.h>
 // Bug when user enters a negative number...
-int reverseNumber(int n) {
+int reverseNumber(int number) {
     int rev = 0;
-    while (n > 0) {
-        rev = rev * 10 + (n % 10);
-        n /= 10;
+    while (number > 0) {
+        rev = rev * 10 + (number % 10);
+        number /= 10;
     }
     return rev;
 }
